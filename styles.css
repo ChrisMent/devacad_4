@@ -1,5 +1,10 @@
-body {
+html {
     scroll-behavior: smooth;
+
+}
+
+body {
+
     margin: 0;
     font-family: "Calibri";
 }
@@ -81,7 +86,173 @@ body {
 
 }
 
-.apply-btn:hover{
-     background-color: rgb(235, 155, 80);
-  
+.apply-btn:hover {
+    background-color: rgb(235, 155, 80);
+
+}
+
+.profile-picture {
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.founders {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+
+}
+
+.founder-box {
+    margin-left: 15px;
+    margin-right: 15px;
+    max-width: 250px;
+
+}
+
+.headlines {
+    display: flex;
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-gray {
+    color: #777;
+
+}
+
+.bg1 {
+    background-color: white;
+
+}
+
+.bg2 {
+    background-color: rgb(221, 216, 216)
+}
+
+.explain-pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+
+    margin-right: 32px;
+    margin-left: 32px;
+}
+
+.explain-sec {
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.explain-box {
+    margin-left: 16px;
+    margin-right: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bg-img {
+    background-color: aliceblue;
+    border-radius: 100%;
+}
+
+/*
+.footer {
+    min-height: 400px;
+    background-color: #545454;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+*/
+
+.footer-row {
+
+    background-color: #545454;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-left: 32px;
+    padding-right: 32px;
+
+}
+
+.footer-container {
+    display: flex;
+    color: white;
+    align-items: flex-start;
+    padding: 15px;
+
+}
+
+.footer-container img {
+    object-fit: contain;
+    width: 200px;
+
+}
+
+.footer-container a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.footer-container a:hover {
+
+    text-decoration: underline;
+}
+
+.social-icons {
+    width: 32px !important;
+    height: 32px;
+    margin-left: 12px;
+    margin-right: 12px;
+
+}
+
+.read-more {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 24px;
+    align-items: center;
+
+}
+
+.read-more img{
+    object-fit: contain;
+    width: 40px;
+    padding-top: 10px;
+
+}
+
+.apply-section{
+    background-image: url(img/pexels-koen-swiers-6386260.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 200px;
+    padding: 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.margin{
+    margin-top: 15px;
+    margin-bottom: 15px;
+
 }
