@@ -112,6 +112,7 @@ body {
     margin-right: 15px;
     max-width: 250px;
 
+
 }
 
 .headlines {
@@ -276,6 +277,55 @@ body {
 
     .navgation-links {
         display: none;
+
+    }
+
+    .footer-row {
+        flex-direction: column-reverse;
+
+    }
+
+    .explain-sec {
+        flex-direction: column;
+
+    }
+
+    .founders {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .apply-section, div h2 {
+        text-align: center;
+        font-size: 1.1em;
+    }
+
+    .margin {
+        margin-top: 30px;
+
+    }
+
+    .founder-box {
+        display: flex;
+        margin-left: 15px;
+        flex-direction: column;
+        align-items: center;
+        max-width: unset;
+    }
+
+    .navigation-bar {
+        left: 25%;
+
+    }
+
+    .read-more {
+        bottom: 5px;
+    }
+
+    #adjust {
+        margin-top: 0px;
+        margin-bottom: 0px;
 
     }
 }
